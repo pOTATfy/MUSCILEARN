@@ -1,0 +1,19 @@
+#topic{
+    background-color: black;
+    text-align: center;
+    color:white;
+    border: 0;
+    height: 100px;
+    width: 100px;
+}
+
+body{
+    background-image: url("back.jpg");
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+
+}

@@ -1,0 +1,126 @@
+
+#subject{
+  text-align: center;
+  position: relative;left: 1px;
+  position: relative;bottom: 1px;
+}
+.btn-group button {
+  background-color: #04AA6D; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  position: relative;left: 500px;
+  position: relative;bottom: 1px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+#class{
+  text-align: center;
+  position: relative;bottom: 1px;
+  position: relative;left: 1px;
+}
+
+.class-group button {
+  background-color: #04AA6D; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  position: relative;left: 590px;
+  position: relative;bottom: 1px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.class-group:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.class-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.class-group button:hover {
+  background-color: #3e8e41;
+}
+
+#sing{
+  text-align: center;
+  position: relative;bottom: 1px;
+  position: relative;left:1px;
+}
+
+
+.choose-group button {
+  background-color: #04AA6D; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  position: relative;left: 600px;
+  position: relative;bottom: 1px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.choose-group:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.choose-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.choose-group button:hover {
+  background-color: #3e8e41;
+}
+#details{
+background-color: rgb(56, 52, 52);
+opacity: 0.1;
+height: 1500px;
+display: inline-block;
+width: 150px;
+position: relative;bottom: 500px;
+
+}
+#account{
+height: 70px;
+width: 70px;
+position: relative;bottom: 1400px;
+position: relative;left: -110px;
+}
+body{
+  background-image: url("/firstproject/pexels-harrison-candlin-2441454.jpg");
+  position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
